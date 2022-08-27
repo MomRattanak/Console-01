@@ -9,10 +9,17 @@ namespace Console_01
             static float proE = 20.1f;
             public static void Main(string[] args)
             {
-                int a = 3;
-                int b = 5;
+                
+                string a = Console.ReadLine();
+                Console.WriteLine(a);
+                string b = Console.ReadLine();
+                Console.WriteLine(b);
+                //Convert
+                int num1 = int.Parse(a);
+                int num2 = 
 
-                Console.WriteLine(a + b);
+
+                //Console.WriteLine(a + b);
                 Console.WriteLine(div(10, 30));
                 Console.WriteLine(Add(30, 20));
                 int result = Add(10, 20);
@@ -20,7 +27,7 @@ namespace Console_01
                 suu();
                 sum();
                 writeline();
-                Console.ReadLine();
+                Console.Read();
             }
             public static void writeline()
             {
