@@ -9,12 +9,17 @@ namespace Console_01
             static float proE = 20.1f;
             public static void Main(string[] args)
             {
-                bool a = true;
-                bool b = false;
+                int a = 3;
+                int b = 5;
 
-                Console.WriteLine(a);
-                Console.WriteLine(b);
+                Console.WriteLine(a + b);
+                writeline();
                 Console.ReadLine();
+            }
+            public static void writeline()
+            {
+                Console.WriteLine("I am called from a method");
+                Console.Read();
             }
 
         }
