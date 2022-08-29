@@ -35,7 +35,7 @@ namespace Console_01
             public static void writeline()
             {
                 Console.WriteLine("I am called from a method");
-                Console.Read();
+                //Console.Read();
             }
             public static void sum()
             {
