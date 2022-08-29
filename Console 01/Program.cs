@@ -6,6 +6,7 @@ namespace Console_01
     {
         public class myclass
         {
+            static int num1, num2;
             static float proE = 20.1f;
             public static void Main(string[] args)
             {
@@ -16,17 +17,19 @@ namespace Console_01
                 Console.WriteLine(b);
                 //Convert
                 int num1 = int.Parse(a);
-                int num2 = 
+                int num2 = int.Parse(b);
 
 
                 //Console.WriteLine(a + b);
                 Console.WriteLine(div(10, 30));
                 Console.WriteLine(Add(30, 20));
+                //Console.WriteLine(na(rattanak, sreynich));
                 int result = Add(10, 20);
                 Console.WriteLine(result);
                 suu();
                 sum();
                 writeline();
+                dod();
                 Console.Read();
             }
             public static void writeline()
@@ -36,7 +39,7 @@ namespace Console_01
             }
             public static void sum()
             {
-                Console.WriteLine("Sum of 4 and 7:"+(4 + 7));
+                Console.WriteLine("Sum of"+(Add(3,7)));
             }
             public static void suu(string names = "Srey Nich")
             {
@@ -51,6 +54,11 @@ namespace Console_01
             public static float div(float num1, float num2)
             {
                 return num1/ num2;
+            }
+            public static void dod()
+            {
+                Console.WriteLine("I Love You.");
+                Console.Read();
             }
         }
 
